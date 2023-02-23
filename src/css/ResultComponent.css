@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    gap: 0rem;
+}
+.result{
+    padding: 20px 30px 20px 30px;
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.details{
+    text-align: left;
+}
+button{
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.play{
+  border-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin-right: 30px;
+}
+
+.home{
+  border-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  margin-left: 30px;
+}
