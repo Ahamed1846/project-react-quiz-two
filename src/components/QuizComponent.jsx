@@ -47,10 +47,10 @@ class QuizComponent extends Component{
                     <h5>{questions[this.state.num].question}</h5>
                 </div>
                 <div className="options">
-                    <p className="top-left option">{questions[this.state.num].optionA}</p>
-                    <p className="top-right option">{questions[this.state.num].optionB}</p>
-                    <p className="bottom-left option">{questions[this.state.num].optionC}</p>
-                    <p className="bottom-right option">{questions[this.state.num].optionD}</p>
+                    <p className="option">{questions[this.state.num].optionA}</p>
+                    <p className="option">{questions[this.state.num].optionB}</p>
+                    <p className="option">{questions[this.state.num].optionC}</p>
+                    <p className="option">{questions[this.state.num].optionD}</p>
                 </div>
                 <div>
                     <button className="previous-btn" onClick={this.handlePrevious}>Previous</button>
