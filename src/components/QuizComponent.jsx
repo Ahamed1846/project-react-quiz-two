@@ -55,7 +55,7 @@ class QuizComponent extends Component{
                 <div>
                     <button className="previous-btn" onClick={this.handlePrevious}>Previous</button>
                     <button className="next-btn" onClick={this.handleNext}>Next</button>
-                    <button className="quit-btn" onClick={this.handleQuit}>Quit</button>
+                    <button className="quit-btn" onClick={this.handleQuit}>Quit</button> 
                 </div>
             </div>
         )
